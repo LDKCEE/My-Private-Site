@@ -78,10 +78,10 @@ p {
 .box1{
 display: flex;
 position: absolute;
-top: 30px;
-left: 40px;
-width: 1.2rem;
-height: 1rem;
+top: 20px;
+left: 30px;
+width: 2rem;
+height: 2rem;
 border: 1px solid;
 color: black;text-align: center;
 
