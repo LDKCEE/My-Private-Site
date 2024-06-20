@@ -77,37 +77,23 @@ p {
 
 .box1{
 display: flex;
-}
-
-
-.flecha {
-    display: flex;
-    position: absolute;
-    top: 30px;
-    left: 40px;
-    width: 40px;
-
+position: absolute;
+top: 30px;
+left: 40px;
+width: 1.2rem;
+height: 1rem;
+border: 1px solid;
+color: black;text-align: center;
 
 }
 
-.flecha:hover {
-    background: #5fd155;
 
-    border-radius: 3px;
+ 
+
+.box1:hover {
+     color: gold;
+     
 }
 
-.derecha {
-    display: flex;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 40px;
-
-
-}
-
-.derecha:hover {
-    background: #5fd155;
-
-    border-radius: 3px;
-}
+ 
+ 
