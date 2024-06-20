@@ -1,0 +1,215 @@
+ body {
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     padding: 0;
+     background-color: #8a8eb3;
+
+
+ }
+
+ .Iniciar-sesion {
+     display: grid;
+     background: #fff;
+     padding: 2rem;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 15rem; /* para el tamaño del la pentalla*/
+     max-width: 400px;
+     gap: 2rem;
+     animation: animate 5s ease-in-out infinite;
+     transition: all 2s ease-in-out;
+     border: 8px solid #000000;
+
+ }
+
+ .titulos {
+     display: grid;
+     margin: 0;
+     padding: 0;
+     
+ }
+
+ .h1 {
+     animation: colorChange 1s infinite;
+ }
+ .go {
+    animation: colorChange 1s infinite;
+ }
+
+ .h2 {
+     text-align: center;
+     color: #0056b3;
+ }
+
+ .but {
+     color: inherit;
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     bottom: 30rem;
+     right: .5rem;
+     width: auto;
+     height: 3rem;
+     padding: 0;
+     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+     border-radius: 5px;
+     color: black;
+     transition: background-color 0.3s;
+
+ }
+
+ .a {
+     text-decoration: none;
+     background-color: #2886ea;
+     color: white;
+     padding: 10px 20px;
+     border-radius: 5px;
+     
+
+ }
+
+ /* Media Query para pantallas pequeñas */
+ @media (max-width: 600px) {
+     .a {
+         padding: 5px 10px;
+         font-size: 0.9rem;
+         /* Usar unidades relativas para tamaños de fuente */
+     }
+ }
+
+ /* Media Query para pantallas muy pequeñas */
+ @media (max-width: 360px) {
+     .a {
+         padding: 3px 5px;
+         font-size: 0.8rem;
+     }
+ }
+
+ .Iniciar {
+     display: grid;
+     gap: 3rem;
+ }
+
+ label {
+     font-weight: bold;
+ }
+
+ input {
+     width: 90%;
+     padding: 1rem;
+     box-sizing: border-box;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+ }
+
+ button {
+     width: 100%;
+     padding: 1rem;
+     background: #256db9;
+     border: none;
+     border-radius: 3px;
+     color: white;
+     font-size: 1.5rem;
+     cursor: pointer;
+     margin-top: 2rem;
+     transition: backgound-color 0.3s;
+     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+   
+ }
+  button:disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+    
+ button:hover {
+     background: blue;
+ }
+
+ .checkbox {
+     display: flex;
+     justify-content: start;
+     margin-top: 2rem;
+     /* Ajustado para mejor espacio */
+     gap: 1rem;
+
+     input {
+         width: 1rem;
+         scale: 1.5;
+     }
+
+ }
+
+ .condic {
+     text-decoration: none;
+     
+    
+ }
+
+ .pagfot {
+     text-decoration: none;
+     color: #fff;
+
+ }
+
+ @keyframes animate {
+     0% {
+         border-radius: 40% 0% 40% 0% / 0% 40% 0% 40%;
+         border-color: red;
+     }
+
+     25% {
+         border-radius: 0% 40% 0% 40% / 40% 0% 40% 0%;
+         border-color: black;
+     }
+
+     50% {
+         border-radius: 40% 0% 40% 0%/ 0% 40% 0% 40%;
+         border-color: red;
+     }
+
+     75% {
+         border-radius: 0% 40% 0% 40% / 40% 0% 40% 0%;
+         border-color: black;
+
+     }
+
+     100% {
+         border-radius: 40% 0% 40% 0%/ 0% 40% 0% 40%;
+         border-color: red;
+     }
+
+ }
+
+ @keyframes colorChange {
+     0% {
+         color: #ff0000b3;
+     }
+
+     25% {
+         color: #fcfcfc;
+     }
+
+     50% {
+         color: #ff0000b3;
+     }
+
+     75% {
+         color: #fcfcfc;
+     }
+
+     100% {
+         color: #ff0000b3;
+     }
+ }
+ 
+
+
+
+
+ /* background-image: url(/img/foto.jpeg);
+     background-size: cover;
+     background-position:center ;
+     background-repeat: no-repeat; */

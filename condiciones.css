@@ -1,0 +1,113 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #8a8eb3;
+    
+}
+
+
+.contener {
+    padding: 10vw;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 400px;
+    display: grid;
+    gap: 2rem;
+    animation: animate 5s ease-in-out infinite;
+    transition: all 2s ease-in;
+    border: 2px solid #5f9ea07a;
+     
+
+
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+
+}
+h3 {
+    color: rgb(49, 116, 100);
+}
+ 
+
+.titulo {
+     font-family: 'Times New Roman', Times, serif;
+     border-bottom: 1.5px solid;
+     text-align: center;
+     box-shadow: 0 0 15px white !important;
+}
+ul {
+    background: whitesmoke;
+    box-shadow: 0 0 10px rgba(5, 0, 0, 50);
+    
+
+}
+ul li {
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    border-radius: .5rem;
+    box-shadow: 0 0 20px 5px rgb(0, 0, 0, 5);
+    gap: 5rem;
+    padding: 2rem;
+    margin-right: 2rem;
+     list-style-type: none;
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 2rem;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-radius: 5%;
+    color: wheat !important;
+
+}
+
+
+
+
+.box1{
+display: flex;
+}
+
+
+.flecha {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 40px;
+
+
+}
+
+.flecha:hover {
+    background: #5fd155;
+
+    border-radius: 3px;
+}
+
+.derecha {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+
+
+}
+
+.derecha:hover {
+    background: #5fd155;
+
+    border-radius: 3px;
+}

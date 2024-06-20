@@ -1,0 +1,30 @@
+{
+    "niños": [
+        {"title": "Foto1", "url": "/fotos_niños/niño1.jpeg"},
+        {"title": "Foto2", "url": " fotos_niños/niño2.jpeg"},
+        {"title": "Foto3", "url": "/fotos_niños/niño3.webp"},
+        {"title": "Foto4", "url": "/fotos_niños/niño4.jpeg"},
+        {"title": "Foto5", "url": "/fotos_niños/niño5.jpeg"},
+        {"title": "Foto6", "url": "/fotos_niños/niño6.jpeg"},
+        {"title": "Foto7", "url": "/fotos_niños/niño7.webp"},
+        {"title": "Foto8", "url": "/fotos_niños/niño8.jpeg"},
+        {"title": "Foto9", "url": "/fotos_niños/niño9.webp"},
+        {"title": "Foto10", "url": "/fotos_niños/niño10.jpeg"}
+       
+    ],
+
+    "niñas": [
+        {"title": "niña1", "url": "/fotos.niñas/niña1.jpg"},
+        {"title": "niña2", "url": "fotos.niñas/niña2.jpeg"},
+        {"title": "niña3", "url": "fotos.niñas/niña3.jpeg"},
+        {"title": "niña4", "url": "fotos.niñas/niña4.webp"},
+        {"title": "niña5", "url": "fotos.niñas/niña5.jpeg"},
+        {"title": "niña6", "url": "fotos.niñas/niña6.webp"},
+        {"title": "niña7", "url": "fotos.niñas/niña7.jpeg"},
+        {"title": "niña8", "url": "fotos.niñas/niña8.jpeg"},
+        {"title": "niña9", "url": "fotos.niñas/niña9.webp"},
+        {"title": "niña10", "url": "/fotos.niñas/niña10.jpg"}
+        
+        
+    ]
+}

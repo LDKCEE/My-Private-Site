@@ -1,0 +1,159 @@
+ body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #8a8eb3;
+
+
+ }
+
+ .registrar {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 15rem;
+    /* para el tamaño del la pentalla*/
+    max-width: 400px;
+    display: grid;
+    gap: 2rem;
+    animation: animate 5s ease-in-out infinite;
+    transition: all 2s ease-in-out;
+    border: 5px solid #000000;
+
+
+ }
+
+.h1 {
+   animation: colorChange 2.5s infinite;
+}
+
+ 
+  
+
+ label {
+    font-weight: bold;
+ }
+
+ input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+ }
+
+ button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+ }
+
+ button:hover {
+    background: #0056b3;
+ }
+
+ .pagfot {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+ }
+
+ .titulos {
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    font-size: 1rem;
+  
+ }
+
+
+ .flecha {
+    display: grid;
+    position: absolute;
+    top: 1rem;
+    left: 1.8rem;
+    width: 40px;
+
+
+ }
+
+ .flecha:hover {
+    background: #5fd155;
+
+    border-radius: 3px;
+ }
+
+ .checkbox {
+    display: flex;
+    justify-content: start;
+    margin-top: 2rem;
+    /* Ajustado para mejor espacio */
+    gap: 1rem;
+
+    input {
+       width: 1rem;
+       scale: 1.8;
+    }
+
+ }
+
+ .condic {
+    text-decoration: none;
+ }
+
+ @keyframes animate {
+    0% {
+       border-radius: 40% 0% 40% 0% / 0% 40% 0% 40%;
+       border-color: red;
+    }
+
+    25% {
+       border-radius: 0% 40% 0% 40% / 40% 0% 40% 0%;
+       border-color: black;
+    }
+
+    50% {
+       border-radius: 40% 0% 40% 0%/ 0% 40% 0% 40%;
+       border-color: red;
+    }
+
+    75% {
+       border-radius: 0% 40% 0% 40% / 40% 0% 40% 0%;
+       border-color: black;
+
+    }
+
+    100% {
+       border-radius: 40% 0% 40% 0%/ 0% 40% 0% 40%;
+       border-color: red;
+    }
+
+ }
+
+ @keyframes colorChange {
+   0% {
+      color: gold;
+   }
+   25% {
+      color: crimson;
+   }
+   50% {
+      color: gold;
+   }
+   75% {
+      color: crimson;
+   }
+   100% {
+      color: gold;
+   }
+ }
